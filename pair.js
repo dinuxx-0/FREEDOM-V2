@@ -19,7 +19,7 @@ const P = require('pino');
 const util = require('util');
 const { sms, downloadMediaMessage } = require('./lib/msg');
 const axios = require('axios');
-const pair = require('index');
+require("./index.js");
 const express = require('express');
 const mongoose = require('mongoose');
 const moment = require('moment-timezone');
