@@ -28,7 +28,8 @@ const { File } = require('megajs');
 require('dotenv').config();
 
 // Configuration
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://shanuka:Shanuka@cluster0.i9l2lts.mongodb.net/Shanuka?retryWrites=true&w=majority;
+require('dotenv').config();
+const MONGODB_URI = process.env.MONGODB_URI;
 process.env.NODE_ENV = 'production';
 process.env.PM2_NAME = 'devil-tech-md-session';
 
