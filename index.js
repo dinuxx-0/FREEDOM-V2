@@ -23,7 +23,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const moment = require('moment-timezone');
 const path = require('path');
-const app = express();
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8000;
 let code = require('./pair'); 
