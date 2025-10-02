@@ -25,8 +25,8 @@ const moment = require('moment-timezone');
 const path = require('path');
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8000;
-const code = require('./id'); 
-const { File } = require('megajs');
+const { code } = require('./id'); 
+const { File } = require('./megajs');
 require('dotenv').config();
 
 // Configuration
